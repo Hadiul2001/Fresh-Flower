@@ -147,6 +147,50 @@ ul>li{
     height: 597px;
 }
 
+/* join style */
+.join-container{
+    height:400px;
+    width:100%;
+    background-color: rgba(7, 51, 79, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.join-heading{
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.email-Subscribe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.email{
+    height: 30px;
+    width: 550px;
+}
+
+.Subscribe{
+    height: 33px;
+    width: 150px;
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    background-color: #E95A08;
+    color: white;
+    cursor: pointer;
+}
+
+.Subscribe:hover{
+    background-color: #bd4601;
+}
+
 
 
 /* responsive */
@@ -193,5 +237,29 @@ ul>li{
         width: 45%;
         
     }
-    
+
+    /* join */
+    .join-heading {
+        font-size: 32px;
+    }
+
+    .email {
+        width: 100%;
+    }
+
+    .Subscribe {
+        width: 100%;
+    }
+
+    .email-Subscribe {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .join-container {
+        padding: 20px;
+        height: auto;
+    }
 }
+    
+
