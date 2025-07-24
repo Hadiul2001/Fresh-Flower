@@ -121,9 +121,31 @@ ul>li{
     padding: 50px;
 }
 
+/* plant lover style */
+.plant-lover-container{
+    display: flex;
+    margin: 0px 100px 0px 200px;
+    padding:50px 50px 50px 150px;
+    gap:120px;
+    width: 1133px;
+}
 
+.plant-lover-header{
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 0px;
+}
 
+.plant-lover-text{
+    padding-left: 0px;
+    font-size: 29px;
+    color: #8987A1;
+}
 
+.plant-lover-text-container{
+    width: 540px;
+    height: 597px;
+}
 
 
 
@@ -157,6 +179,19 @@ ul>li{
         grid-template-columns: repeat(2,1fr);
         margin: 0px;
         padding: 0px;
+    }
+
+    /* plant lover */
+    .plant-lover-container{
+        display: flex;
+        flex-direction: column;
+        padding-left: 0px;
+        margin-left: 0px;
+    }
+
+    .plant-lover-img{
+        width: 45%;
+        
     }
     
 }
