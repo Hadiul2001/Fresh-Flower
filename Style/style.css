@@ -237,7 +237,7 @@ ul>li {
 }
 
 #box--1 {
-    background-image: url("/assets/deal-bloom.png");
+    background-image: url("../assets/deal-bloom.png");
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -246,7 +246,7 @@ ul>li {
 }
 
 #box--2 {
-    background-image: url("/assets/deal-zabo.png");
+    background-image: url("../assets/deal-zabo.png");
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -255,7 +255,7 @@ ul>li {
 }
 
 #box--3 {
-    background-image: url("/assets/deal-ana.png");
+    background-image: url("../assets/deal-ana.png");
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -299,7 +299,7 @@ ul>li {
 .join-container {
     height: 600px;
     width: 100%;
-    background-image: url("/assets/news-letter-bg.png");
+    background-image: url("../assets/news-letter-bg.png");
     background-size: cover;
     display: flex;
     justify-content: center;
