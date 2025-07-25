@@ -57,6 +57,7 @@ ul>li {
 }
 
 /* plants style */
+
 .plants {
     text-align: center;
 }
@@ -78,6 +79,8 @@ ul>li {
 }
 
 /* card style */
+
+
 .card {
     height: 330px;
     width: 160px;
@@ -123,7 +126,9 @@ ul>li {
     padding: 50px;
 }
 
+
 /* plant lover style */
+
 .plant-lover-container {
     display: flex;
     margin: 0px 100px 0px 200px;
@@ -149,11 +154,153 @@ ul>li {
     height: 597px;
 }
 
+.plant-lover-img-container {
+    position: relative;
+    display: inline-block;
+}
+
+.trusted-badge {
+    position: absolute;
+    top: 10px;        
+    right: 10px;       
+    width: 180px;       
+    z-index: 10;       
+}
+
+
+
+.plant-lover-img {
+    display: block;
+    width: 100%;      
+    height: auto;
+}
+
+/* deals section */
+
+.deals-text-header{
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.deals-text-header-color{
+    color:#E95A08;
+}
+
+
+.deals-text-paragraph{
+    text-align: center;
+    font-size: 25px;
+    color: #8987A1;
+}
+
+.box-1 {
+    grid-area: box-1;
+}
+
+.box-2 {
+    grid-area: box-2;
+}
+
+.box-3 {
+    grid-area: box-3;
+}
+
+.box-1,
+.box-3 {
+    border-radius: 10px;
+    height: 200px;
+    width: 200px;
+    padding-left: 100px;
+
+}
+
+.box-2 {
+    border-radius: 14px;
+    height: 426px;
+    width: 500px;
+    padding-right: 150px;
+    margin-right: 100px;
+}
+
+.deals-container {
+    display: grid;
+    gap: 10px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    padding: 20px;
+    justify-content: space-evenly;
+    grid-template-areas:
+        "box-1 box-2 "
+        "box-3 box-2 "
+    ;
+}
+
+#box--1 {
+    background-image: url(/assets/deal-bloom.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#box--2 {
+    background-image: url(/assets/deal-zabo.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#box--3 {
+    background-image: url(/assets/deal-ana.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-offer {
+    color: white;
+    font-size: 20px;
+    margin: 0px 0px 0px 0px;
+    padding-right: 65px;
+}
+
+.shop-now {
+    color: white;
+    text-decoration: underline;
+    margin: 0px 0px 0px 0px;
+    cursor: pointer;
+    padding-right: 110px;
+}
+
+.big-box-offer {
+    color: white;
+    font-size: 40px;
+    margin: 0px 0px 0px 0px;
+    padding-left: 150px;
+}
+
+.big-shop-now {
+    color: white;
+    text-decoration: underline;
+    margin: 0px 0px 0px 0px;
+    font-size: 20px;
+    cursor: pointer;
+    padding-left: 160px;
+}
+
+
 /* join style */
 .join-container {
-    height: 400px;
+    height: 600px;
     width: 100%;
-    background-color: rgba(7, 51, 79, 0.4);
+    background-image: url(/assets/news-letter-bg.png);
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -280,6 +427,10 @@ footer>div>div>ul>li {
 
     }
 
+    .trusted-badge{
+        display: none;
+    }
+
     /* join */
     .join-heading {
         font-size: 32px;
@@ -303,10 +454,47 @@ footer>div>div>ul>li {
         height: auto;
     }
 
+    /* deals */
+     
+    .deals-container {
+    display: grid;
+    gap: 5px;
+    justify-content: space-evenly;
+    grid-template-areas:
+        "box-1"
+        "box-3"
+        "box-2"
+    ;
+}
+    
     /* footer */
-    .footer-container{
+    .footer-container {
         display: flex;
-        justify-content:flex-start;
+        justify-content: flex-start;
         flex-direction: column;
     }
+
+    .box-2 {
+    border-radius: 10px;
+    height: 200px;
+    width: 200px;
+    /* padding-left: 100px; */
+}
+
+.big-box-offer {
+    color: white;
+    font-size: 20px;
+    margin: 0px 0px 0px 0px;
+    padding-right: 65px;
+}
+
+
+
+.big-shop-now {
+    color: white;
+    text-decoration: underline;
+    margin: 0px 0px 0px 0px;
+    cursor: pointer;
+    padding-right: 110px;
+}
 }
